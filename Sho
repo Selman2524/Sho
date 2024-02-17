@@ -1,0 +1,9 @@
+t_dict = {'lol': 'sesli gülmek', 'crınge': 'utanılacak hareketler'}
+
+s = input('aradığınız kelimeyi giriniz')
+
+if s in t_dict.keys():
+    print(t_dict[s])
+    
+else:
+    print('aradığınız kelimeye sahip değilim')
